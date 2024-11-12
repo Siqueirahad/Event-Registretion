@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Event Registration ">c9a8d083c3a91210fe51ba2ed40131d9</cat_item>
+        <cat_variable>IO:1ece3c43c36d1210fe51ba2ed401310e</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>another User - true</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === oldValue) {
+        return;
+    }
+
+    // Obtenha o valor do checkbox 'another_user'
+    var another = g_form.getValue('another_user');
+
+    if (another === 'true') {
+        // Define o valor do campo 'full_name' quando o checkbox está marcado
+        g_form.setValue('full_name', 'Nome completo do outro usuário');
+		g_form.setValue('email', 'Nome completo do outro usuário');
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 02:40:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>26f08547c36d1210fe51ba2ed40131f2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>another User - true</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Registration" source="x_1444656_event_0">32032ffac3651210fe51ba2ed401311f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">32032ffac3651210fe51ba2ed401311f</sys_scope>
+        <sys_update_name>catalog_script_client_26f08547c36d1210fe51ba2ed40131f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 02:48:39</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="DELETE">
+        <id>26f08547c36d1210fe51ba2ed40131f2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 02:40:52</sys_created_on>
+        <sys_id>66710147c36d1210fe51ba2ed4013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 02:40:52</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Registration">32032ffac3651210fe51ba2ed401311f</application>
+        <file_path/>
+        <instance_id>caf30d951b6a7dd8699443f4bd4bcbfe</instance_id>
+        <instance_name>dev212437</instance_name>
+        <name>catalog_script_client_26f08547c36d1210fe51ba2ed40131f2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Event Registration "&gt;c9a8d083c3a91210fe51ba2ed40131d9&lt;/cat_item&gt;&lt;cat_variable&gt;IO:1ece3c43c36d1210fe51ba2ed401310e&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;another User - true&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === oldValue) {
+        return;
+    }
+
+    // Obtenha o valor do checkbox 'another_user'
+    var another = g_form.getValue('another_user');
+
+    if (another === 'true') {
+        // Define o valor do campo 'full_name' quando o checkbox está marcado
+        g_form.setValue('full_name', 'Nome completo do outro usuário');
+		g_form.setValue('email', 'Nome completo do outro usuário');
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-03 02:40:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;26f08547c36d1210fe51ba2ed40131f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;another User - true&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Event Registration" source="x_1444656_event_0"&gt;32032ffac3651210fe51ba2ed401311f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Event Registration"&gt;32032ffac3651210fe51ba2ed401311f&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_26f08547c36d1210fe51ba2ed40131f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-03 02:48:39&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;26f08547c36d1210fe51ba2ed40131f2&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-03 02:40:52&lt;/sys_created_on&gt;&lt;sys_id&gt;66710147c36d1210fe51ba2ed4013178&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-03 02:40:52&lt;/sys_updated_on&gt;&lt;table&gt;catalog_script_client&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-4722805</payload_hash>
+        <record_name>another User - true</record_name>
+        <reverted_from/>
+        <source>a50d998bc3ed1210fe51ba2ed40131a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 02:48:39</sys_created_on>
+        <sys_id>a043490bc36d1210fe51ba2ed4013173</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>192efecb0890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 04:45:26</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>6843490b566d1210968e359e191f4c72</update_guid>
+        <update_guid_history>6843490b566d1210968e359e191f4c72:-4722805,1223c50b866d1210e5a7fe290ba72207:-2015145836,c5f2810b766d12102e3dfc3b921e5f1d:929746149,15e20dc7836d1210e1c806c4d82d64f3:1047168411,ffb241c79a6d121086cf3a6c9c5c0ea3:-761818598,7c7285c70d6d121041469f6a34694783:2035178442,ad3241c7696d1210ac254de80c373d20:525693196,b8f1c987b66d12100378e7abf42b457e:-1221736055,28d109878a6d1210cad7a0fb6db511dd:13126773,e4c14187c16d1210bbb14a059b192744:-1584637467,9fa14587df6d121090a3ef570ed0d241:1549128741,be710187786d12102e84e2cabb642698:928755328</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="another User - true">62c3854bc36d1210fe51ba2ed401312e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 02:50:58</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>c200f6a75b1141629752a59f5cb372a4</sys_id>
+        <sys_metadata>26f08547c36d1210fe51ba2ed40131f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>another User - true</sys_name>
+        <sys_package display_value="Event Registration" source="x_1444656_event_0">32032ffac3651210fe51ba2ed401311f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">32032ffac3651210fe51ba2ed401311f</sys_scope>
+        <sys_scope_delete display_value="">2b31701c59b44a5397ecd782de999791</sys_scope_delete>
+        <sys_update_name>catalog_script_client_26f08547c36d1210fe51ba2ed40131f2</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_26f08547c36d1210fe51ba2ed40131f2">a043490bc36d1210fe51ba2ed4013173</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 02:50:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

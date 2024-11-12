@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1444656_event_0.GetUserInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetUserInfo</name>
+        <script><![CDATA[var GetUserInfo = Class.create();
+GetUserInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getUserDetails: function() {
+        // Obtenha o sys_id do usuário logado
+        var userSysId = gs.getUserID();
+        
+        // Query na tabela sys_user para obter os dados do usuário
+        var userGR = new GlideRecord('sys_user');
+        userGR.get(userSysId);
+        
+        if (userGR) {
+            // Retorne o nome e email do usuário logado
+            return JSON.stringify({
+                name: userGR.getValue('name'),
+                email: userGR.getValue('email')
+            });
+        }
+        return null;
+    },
+
+    type: 'GetUserInfo'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 02:59:00</sys_created_on>
+        <sys_id>b5d48d8bc36d1210fe51ba2ed40131a5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>GetUserInfo</sys_name>
+        <sys_package display_value="Event Registration" source="x_1444656_event_0">32032ffac3651210fe51ba2ed401311f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Registration">32032ffac3651210fe51ba2ed401311f</sys_scope>
+        <sys_update_name>sys_script_include_b5d48d8bc36d1210fe51ba2ed40131a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 03:22:19</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b5d48d8bc36d1210fe51ba2ed40131a5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 02:59:00</sys_created_on>
+        <sys_id>9ca549cbc36d1210fe51ba2ed401318d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 02:59:00</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

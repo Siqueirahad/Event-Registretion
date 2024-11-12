@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Cadastro de novo Evento">64c99197c3e19210fe51ba2ed40131ae</sc_cat_item>
+        <sc_catalog display_value="Event Registration">cf01ad13c3259210fe51ba2ed40131d4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 23:37:25</sys_created_on>
+        <sys_id>d511ed13c3259210fe51ba2ed40131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Registration.Cadastro de novo Evento</sys_name>
+        <sys_package display_value="Event Registration" source="x_1444656_event_0">32032ffac3651210fe51ba2ed401311f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">32032ffac3651210fe51ba2ed401311f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d511ed13c3259210fe51ba2ed40131af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 23:37:25</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Registration">32032ffac3651210fe51ba2ed401311f</application>
+        <file_path/>
+        <instance_id>caf30d951b6a7dd8699443f4bd4bcbfe</instance_id>
+        <instance_name>dev212437</instance_name>
+        <name>sc_cat_item_catalog_d511ed13c3259210fe51ba2ed40131af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Cadastro de novo Evento">64c99197c3e19210fe51ba2ed40131ae</sc_cat_item><sc_catalog display_value="Event Registration">cf01ad13c3259210fe51ba2ed40131d4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-03 23:37:25</sys_created_on><sys_id>d511ed13c3259210fe51ba2ed40131af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event Registration.Cadastro de novo Evento</sys_name><sys_package display_value="Event Registration" source="x_1444656_event_0">32032ffac3651210fe51ba2ed401311f</sys_package><sys_policy/><sys_scope display_value="Event Registration">32032ffac3651210fe51ba2ed401311f</sys_scope><sys_update_name>sc_cat_item_catalog_d511ed13c3259210fe51ba2ed40131af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-03 23:37:25</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>572120443</payload_hash>
+        <record_name>Event Registration.Cadastro de novo Evento</record_name>
+        <reverted_from/>
+        <source>3e032ffac3651210fe51ba2ed4013123</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 23:37:26</sys_created_on>
+        <sys_id>1511ed13c3259210fe51ba2ed40131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192f463fb390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 23:37:26</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>1911ed13d3259210f180c5604792a6b5</update_guid>
+        <update_guid_history>1911ed13d3259210f180c5604792a6b5:572120443</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Event Registration.Cadastro de novo Evento">ceb16193c3259210fe51ba2ed40131cf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 23:40:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2820e28329504254b2baa52866080b44</sys_id>
+        <sys_metadata>d511ed13c3259210fe51ba2ed40131af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Registration.Cadastro de novo Evento</sys_name>
+        <sys_package display_value="Event Registration" source="x_1444656_event_0">32032ffac3651210fe51ba2ed401311f</sys_package>
+        <sys_parent display_value="Cadastro de novo Evento">64c99197c3e19210fe51ba2ed40131ae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">32032ffac3651210fe51ba2ed401311f</sys_scope>
+        <sys_scope_delete display_value="">2b31701c59b44a5397ecd782de999791</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_d511ed13c3259210fe51ba2ed40131af</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_d511ed13c3259210fe51ba2ed40131af">1511ed13c3259210fe51ba2ed40131b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 23:40:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fb3a6776c3a51210fe51ba2ed401314d" extends="task" label="Registration " max_length="40" name="x_1444656_event_0_registration" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Full Name" max_length="100" name="full_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="100" name="email" type="string"/>
+        <element attributes="encode_utf8=false" label="Event" max_length="32" name="desired_event" reference="x_1444656_event_0_event" type="reference"/>
+    </element>
+</database>
